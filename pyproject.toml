@@ -5,6 +5,9 @@ description = ""
 authors = ["Shani Vanlerberghe <shani.vanlerberghe@hotmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+ccwc = 'ccwc.wc:wc'
+
 [tool.poetry.dependencies]
 python = "^3.10"
 click = "^8.1.7"

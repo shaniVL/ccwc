@@ -1,5 +1,4 @@
 import click
-import os
 import sys
 
 def byte_count(lines: list[str]):
